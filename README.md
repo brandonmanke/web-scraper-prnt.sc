@@ -18,7 +18,7 @@ with the ID "#screenshot-image" it then pulls the src attribute to find the host
 ##Future plans
 
 I plan on hopefully improving the runtime of the entire program, but we will see what happens. I will mainly be focused on pulling the image and displaying it in
-the browser. (I plan on implementing node modules in browser with [Browserify](http://browserify.org/)). Until the I am completely open to suggestions of what to do
+the browser. ~~(I plan on implementing node modules in browser with [Browserify](http://browserify.org/))~~. Until the I am completely open to suggestions of what to do
 and what not to do.
 
 ---
