@@ -1,0 +1,24 @@
+{
+  "name": "web-scraper-prnt.sc",
+  "version": "1.0.0",
+  "description": "This parses the website prnt.sc for randomly uploaded screenshots",
+  "main": "script.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "phantom": "^2.0.0-alpha.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonmanke/web-scraper-prnt.sc.git"
+  },
+  "author": "Brandon Manke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonmanke/web-scraper-prnt.sc/issues"
+  },
+  "homepage": "https://github.com/brandonmanke/web-scraper-prnt.sc#readme"
+}
