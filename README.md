@@ -13,7 +13,6 @@ First a url is generated using the ```generateRandomURL()``` function. Once the 
 Once phantom loads the site (this currently takes a variable amount of time (i.e. 2 seconds - 20 seconds)). Cheerio then parses the html to find the img element
 with the ID "#screenshot-image" it then pulls the src attribute to find the hosted url. Then the url is printed.
 
----
 
 ##Future plans
 
@@ -21,7 +20,6 @@ I plan on hopefully improving the runtime of the entire program, but we will see
 the browser. I plan on implementing node module in browser with [Browserify](http://browserify.org/). Until the I am completely open to suggestions of what to do
 and what not to do.
 
----
 
 ##Licenses:
 
