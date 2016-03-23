@@ -8,11 +8,19 @@ The current version uses the [Node](https://nodejs.org/) modules [Cheeriojs](htt
 
 ##How it works:
 
-First a URL is generated using the ```generateRandomURL()``` function. Once the URL is generated it is then loaded by Phantom, a scriptable headless WebKit. 
+First a URL is generated using the ```generateRandomURL()``` function. Once the URL is generated it is then loaded by Phantom, a scriptable headless WebKit.
 (I initially wanted to use requestjs, but it only parsed static webpages. Which caused problems generating the source URL for '#screenshot-image').
 Once Phantom loads the site (this currently takes a variable amount of time (i.e. 2 seconds - 20 seconds)). Cheerio then parses the html to find the img element
 with the ID "#screenshot-image" it then pulls the src attribute to find the hosted URL. Finally the Url is printed.
 
+##How to run it:
+
+ - Download this repository.
+ - Install [Node](https://nodejs.org/).
+ - Install the required modules for node ([Cheeriojs](https://github.com/cheeriojs/cheerio) & [Phantom](https://github.com/amir20/phantomjs-node/tree/master)).
+ - Once everything is installed navigate to the directory script.js is in.
+ - In your command line type: ```node script.js```.
+ - The script should be running and pulling available urls.
 
 ##Future plans
 
@@ -25,4 +33,3 @@ and what not to do.
 
  - Cheerio ([MIT](https://opensource.org/licenses/MIT))
  - Phantom ([ISC](https://opensource.org/licenses/ISC))
-
