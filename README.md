@@ -15,7 +15,7 @@ with the ID "#screenshot-image" it then pulls the src attribute to find the host
 
 ##How to run it:
 
- - Download this repository.
+ - [Download](https://github.com/brandonmanke/web-scraper-prnt.sc/archive/master.zip) this repository.
  - Install [Node](https://nodejs.org/).
  - Install the required modules for node ([Cheeriojs](https://github.com/cheeriojs/cheerio) & [Phantom](https://github.com/amir20/phantomjs-node/tree/master)).
  - Once everything is installed navigate to the directory script.js is in.
@@ -25,7 +25,7 @@ with the ID "#screenshot-image" it then pulls the src attribute to find the host
 ##Future plans
 
 I plan on hopefully improving the runtime of the entire program, but we will see what happens. I will mainly be focused on pulling the image and displaying it in
-the browser. ~~(I plan on implementing node modules in browser with [Browserify](http://browserify.org/))~~. Until the I am completely open to suggestions of what to do
+the browser. ~~(I plan on implementing node modules in browser with [Browserify](http://browserify.org/))~~. Until then I am completely open to suggestions of what to do
 and what not to do.
 
 
