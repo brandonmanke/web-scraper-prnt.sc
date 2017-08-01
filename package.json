@@ -1,11 +1,10 @@
 {
   "name": "web-scraper-prnt.sc",
   "version": "1.0.0",
-  "description": "This parses the website prnt.sc for randomly uploaded screenshots",
+  "description": "This parses the website prnt.sc, using headless chrome, for randomly uploaded screenshots",
   "main": "script.js",
   "dependencies": {
-    "cheerio": "^0.20.0",
-    "phantom": "^2.0.0-alpha.4"
+    "chromeless": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,7 +15,7 @@
     "url": "git+https://github.com/brandonmanke/web-scraper-prnt.sc.git"
   },
   "author": "Brandon Manke",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/brandonmanke/web-scraper-prnt.sc/issues"
   },
