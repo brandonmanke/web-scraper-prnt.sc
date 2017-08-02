@@ -4,6 +4,7 @@
  *
  * This webscraper headless chrome instance to pull images from the screenshot site prnt.sc
  * It generates a random url then pulls an image if it exists at that url. Images may be NSFW.
+ * Be sure to have a local version of chrome running in headless mode, before you run this script.
  */
 const { Chromeless } = require('chromeless');
 
@@ -87,7 +88,4 @@ async function run() {
 }
 
 // canary --remote-debugging-port=9222 --disable-gpu --headless
-// https://github.com/graphcool/chromeless/tree/master/serverless
-// https://martinfowler.com/articles/serverless.html
-// http://csapp.cs.cmu.edu/
 run();
